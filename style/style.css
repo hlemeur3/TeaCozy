@@ -1,0 +1,148 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+/*Header Style*/
+
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+
+nav {
+ display: inline-flex;
+ align-items: center;
+ padding-right: 2%;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img{
+  padding-left: 10px;
+  height: 50px;
+}
+
+/*Content*/
+
+.Content{
+  padding-top: 69px;
+  margin: auto;
+  width: 1200px;
+}
+
+/*Mission Style*/
+
+.Landing{
+  position: relative;
+}
+
+.Mission{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Mission{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+.image-content{
+  background-color: black;
+  margin: auto 0;
+  width: 100%;
+}
+
+/*Tea of the Month*/
+
+.Month{
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+}
+
+#Month{
+  width: 1000px;
+}
+
+.Teas{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Teas img{
+  display: inline-flex;
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.Teas h4{
+  padding: 0;
+}
+
+/*Locations*/
+
+.Locations{
+  padding: 10px;
+}
+
+#Locations{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+}
+
+.Address{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Downtown{
+  width: 300px;
+  background-color: black;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+.Bayside{
+  width: 300px;
+  background-color: black;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+.Oakdale{
+  width: 300px;
+  background-color: black;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+/*Footer*/
+
+footer{
+  height: 200px;
+}
+
+.copyright{
+  padding-left: 20px;
+  text-align: left;
+}
